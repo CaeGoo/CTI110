@@ -1,0 +1,36 @@
+# Caelon Gooden
+# 03/03/2025
+# P1HW1
+# Write Python program that uses mathematical expressions.
+print("")
+print("- - - -Calculating Exponents- - - -")
+print("")
+print("")
+print("")
+print("Enter an integer as the base vaule: ", end="")
+base = int(input())
+print("Enter an integer as the exponent: ", end="")
+exponent = int(input())
+result = base ** exponent
+print("")
+print("")
+print("")
+print(base, "raised to the power of", exponent, "is", result , "!!")  
+print("")
+print("")
+print("")    
+print("- - - -Addition and Subtraction- - - -")
+print("")
+print("")
+print("")
+print("Enter a starting integer: ", end="")
+start = int(input())
+print("Enter an integer to add: ", end="")
+add = int(input())
+print("Enter an integer to subtract: ", end="")  
+sub = int(input())
+result = start + add - sub
+print("")
+print("")
+print("")
+print(start, "+", add, "-", sub, "is equal to", result,)
